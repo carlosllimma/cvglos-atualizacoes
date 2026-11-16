@@ -1,0 +1,6 @@
+# cvglOS: atualizações do sistema e dos apps da CVGL IT. AI. (repositório assinado; Loja > Atualizações e apt)
+Types: deb
+URIs: https://carlosllimma.github.io/cvglos-atualizacoes
+Suites: trixie
+Components: main
+Signed-By: /usr/share/keyrings/cvglos-archive-keyring.asc
