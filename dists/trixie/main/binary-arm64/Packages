@@ -1,0 +1,190 @@
+Package: cvglos-base
+Version: 1.0.1
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: firefox-esr, firefox-esr-l10n-pt-br, webext-ublock-origin-firefox
+Filename: pool/main/cvglos-base_1.0.1_all.deb
+Size: 3036
+MD5sum: 44aba8c156debee4dfee16f42295fd9d
+SHA1: e01a4799026f7f5416870a0a1df075ccaad06d82
+SHA256: 3c5e734d569b56184d3c1e89ebff235c071201fefcb8be9ba342609f4ce3030f
+Section: admin
+Priority: optional
+Description: base do cvglOS - zero anúncios no navegador
+ Firefox como navegador padrão com uBlock Origin ativado; Firefox e Chromium
+ sem conteúdo patrocinado, promoções e telemetria.
+
+Package: cvglos-base
+Version: 1.0.2
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: firefox-esr, firefox-esr-l10n-pt-br, webext-ublock-origin-firefox
+Filename: pool/main/cvglos-base_1.0.2_all.deb
+Size: 3144
+MD5sum: 6dcdd57465d62cec910916861525cdb1
+SHA1: f94e9bbf39351e65d4ffdfd4f422c31bb654abf2
+SHA256: 675f488dcd97960d91f45148175b7610f496f4e0729a09a249ff5e66a244359e
+Section: admin
+Priority: optional
+Description: base do cvglOS - zero anúncios no navegador
+ Firefox como navegador padrão com uBlock Origin ativado; Firefox e Chromium
+ sem conteúdo patrocinado, promoções e telemetria.
+
+Package: cvglos-base
+Version: 1.0.3
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: firefox-esr, firefox-esr-l10n-pt-br, webext-ublock-origin-firefox
+Filename: pool/main/cvglos-base_1.0.3_all.deb
+Size: 3328
+MD5sum: b22110ef37aeab94d6d7102de89cd385
+SHA1: 121f88d4e732539618238e704dbe9a2cff25bf6a
+SHA256: 28bba7b134ee03e1358dd5319a6a35f7b931977562e219da5259898f05d46c8b
+Section: admin
+Priority: optional
+Description: base do cvglOS - zero anúncios no navegador
+ Firefox como navegador padrão com uBlock Origin ativado; Firefox e Chromium
+ sem conteúdo patrocinado, promoções e telemetria.
+
+Package: cvglos-catalog
+Version: 2026111501
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Enhances: lordos
+Filename: pool/main/cvglos-catalog_2026111501_all.deb
+Size: 2092
+MD5sum: 24e7bc93a75b47cfdf17d389501724ab
+SHA1: b8138bbcf8f02dcc88fe5a2590f328347fbcad28
+SHA256: 22a59c9d30e605da56b281be2d753850fe029dac50433d2df619d435eba768d9
+Section: admin
+Priority: optional
+Description: catálogo assinado do cvglOS (autores verificados)
+ Lista a chave da CVGL IT. AI. como autor verificado e as revogações,
+ assinado com a chave oficial do cvglOS.
+
+Package: cvglos-guardiao
+Version: 1.0.3
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: sudo-rs, lynis, apparmor, iproute2, systemd, util-linux
+Filename: pool/main/cvglos-guardiao_1.0.3_all.deb
+Size: 6836
+MD5sum: 453dcd77c73615e67cb96504d3304613
+SHA1: 1c938e6eaf0b1c46dbf43f007aa164fa456699c6
+SHA256: c31f82c7b8b0753c2ef1f3e7b269a868674a2d4c0d99071ba123b2032ab56b24
+Section: admin
+Priority: optional
+Description: Guardião CVGL - segurança leve do cvglOS
+ Endurecimento do kernel (KSPP), sudo-rs (Rust, memória segura) no lugar do sudo,
+ AppArmor, verificação a cada 30 min e auditoria semanal (Lynis) em prioridade
+ mínima, sem processo residente. O estado aparece no app Guardião CVGL.
+
+Package: cvglos-jogos
+Version: 1.0.0
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: supertux, frozen-bubble, extremetuxracer, pingus, neverball, lbreakouthd, chromium-bsu, xmoto
+Filename: pool/main/cvglos-jogos_1.0.0_all.deb
+Size: 1104
+MD5sum: 8d2a86dd4ae3576d227a5e73de2d542c
+SHA1: ea13a6efb48bf69870e9f9231f3935213a4c65b0
+SHA256: 1bfbaa5338628667ac1d3c902253c5d4f7570619d1a56c4c875894d6149ff9f4
+Section: games
+Priority: optional
+Homepage: https://ia.cvgl.com.br
+Description: Jogos CVGL - coleção de jogos livres
+ Oito jogos livres num clique: SuperTux (plataforma), Frozen Bubble
+ (quebra-cabeça), Extreme Tux Racer e X-Moto (corrida), Pingus, Neverball,
+ LBreakoutHD e Chromium B.S.U. (arcade). Sem anúncios e sem conta.
+
+Package: cvglos-office
+Version: 1.0.0
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Installed-Size: 40
+Depends: cvglos-texto (>= 1.0.0), cvglos-pdf (>= 1.0.0)
+Suggests: cvglos-foto, cvglos-studio, cvglos-vetor
+Filename: pool/main/cvglos-office_1.0.0_all.deb
+Size: 4148
+MD5sum: 0b3cf49613f809ff79807f75b63d1fcc
+SHA1: f2532b45b86630b0eda3b0de5a6dd0b914fcd333
+SHA256: 29d4ce7e4ccc5dcf88601b2ef00c0834188ffcc9c416636afc95295804f76dd3
+Section: misc
+Priority: optional
+Homepage: https://ia.cvgl.com.br
+Description: cvglOffice - textos e PDF do cvglOS
+ Reúne o cvglOffice Texto e o cvglOffice PDF, o comando cvgl-converter e o
+ registro dos apps para agentes de IA (MCP).
+
+Package: cvglos-sistema
+Version: 0.1.0
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: cvglos-base (>= 1.0.1), cvglos-guardiao (>= 1.0.3), cvglos-catalog (>= 2026111501), cvglos-iacvgl (>= 1.0.2)
+Filename: pool/main/cvglos-sistema_0.1.0_all.deb
+Size: 2888
+MD5sum: 023f12d569ffbf094905c523402940dc
+SHA1: 204842693f3ea94d74c7b1aa3bd4378566c5721f
+SHA256: 98889dbe7e5e3d56c9b3e803c270a67b0c10cd51b604f3f42d27bf8ccb339c5c
+Section: admin
+Priority: optional
+Homepage: https://github.com/carlosllimma/cvglOS
+Description: cvglOS - apps da casa e canal de atualizações
+ Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
+ e o repositório assinado de onde vêm as atualizações do sistema.
+
+Package: cvglos-sistema
+Version: 0.2.0
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: cvglos-base (>= 1.0.2), cvglos-guardiao (>= 1.0.3), cvglos-catalog (>= 2026111501), cvglos-iacvgl (>= 1.0.2)
+Filename: pool/main/cvglos-sistema_0.2.0_all.deb
+Size: 3252
+MD5sum: 982f28308295fc185f12623a973b65cd
+SHA1: 8629987519b6257aad6c227fbdecc2bb89129a4f
+SHA256: 40b0c1f463ba750be2e8e3f9055c26775f91b57f314d9a56e04883fe4ac84718
+Section: admin
+Priority: optional
+Homepage: https://github.com/carlosllimma/cvglOS
+Description: cvglOS - apps da casa e canal de atualizações
+ Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
+ e o repositório assinado de onde vêm as atualizações do sistema.
+
+Package: cvglos-sistema
+Version: 0.3.0
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: cvglos-base (>= 1.0.3), cvglos-guardiao (>= 1.0.3), cvglos-office (>= 1.0.0), cvglos-studio (>= 1.0.0), cvglos-foto (>= 1.0.0), cvglos-vetor (>= 1.0.1), cvglos-catalog (>= 2026111501), cvglos-iacvgl (>= 1.0.2)
+Filename: pool/main/cvglos-sistema_0.3.0_all.deb
+Size: 3756
+MD5sum: bcfcae949aef4727ef926d539e1a9ce4
+SHA1: 1fdb5a23e9ec017fa5f6af97dfbdc8ccaa1246de
+SHA256: 5951f14cf80a7a8de8cee9ae198713c332537185a2e76700a6a9c33c3ff03064
+Section: admin
+Priority: optional
+Homepage: https://github.com/carlosllimma/cvglOS
+Description: cvglOS - apps da casa e canal de atualizações
+ Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
+ e o repositório assinado de onde vêm as atualizações do sistema.
+
+Package: lordos-hwdata
+Version: 2026.11.06
+Architecture: all
+Maintainer: LordOS <lord.basex@gmail.com>
+Installed-Size: 44
+Filename: pool/main/lordos-hwdata_2026.11.06_all.deb
+Size: 2848
+MD5sum: dd6b939ff3b1c1ad0a5e845c503743ad
+SHA1: 63a90093db5f74e02bb1ef3e6371b2f936aec780
+SHA256: 574e5f96ba3fd0aef2f9332beab4e93fdde332d19fc2987750feb28ec6079761
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lordbasex/LordOS
+Description: tested-hardware snapshot for LordOS System Information
+ The signed snapshot of the hardware reports accepted for LordOS: for each
+ device and LordOS version, how many reports say it works, works with limits
+ or doesn't work. System Information's Compatibility panel shows it only after
+ checking its Ed25519 signature with the LordOS release key. Updated between
+ LordOS releases through the LordOS repository.
+

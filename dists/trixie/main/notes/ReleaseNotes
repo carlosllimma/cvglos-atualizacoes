@@ -1,0 +1,38 @@
+Package: lordos
+Version: 0.8.8.8+cvgl0.1.0
+Notes:
+ Primeira versão do cvglOS.
+ .
+ - IA CVGL nativa, JEV Decisor, VPN CVGL e Guardião CVGL.
+ - Zero anúncios: Firefox padrão com uBlock Origin e listas de bloqueio do firewall ligadas.
+ - Atualizações do sistema e dos apps pela Loja, assinadas pela CVGL IT. AI.
+
+Package: lordos
+Version: 0.8.8.8+cvgl0.2.0
+Notes:
+ Primeira atualização do cvglOS.
+ .
+ - **Visual CVGL:** três papéis de parede novos (Aurora, Horizonte e Rede) na coleção CVGL, com o Aurora como padrão
+   e o Horizonte na tela de login. Em telas 4K, a versão em alta resolução é usada sozinha.
+ - **Logo limpo:** as telas de boas-vindas, avisos e confirmações mostram o logo CVGL, sem selos.
+ - **Navegadores sem desvio de DNS:** Firefox e Chromium passam a usar o DNS do sistema. Assim, os bloqueios do
+   firewall e o AdGuard da VPN CVGL valem também dentro do navegador.
+ - **Chromium sem anúncios:** o uBlock Origin Lite é instalado automaticamente no Chromium (o Firefox continua com
+   o uBlock Origin completo).
+ - **Suas configurações:** a pasta `~/.config/cvglos` passa a levar às suas configurações do sistema.
+
+Package: lordos
+Version: 0.8.8.8+cvgl0.3.0
+Notes:
+ - **cvglOffice:** chegam o **cvglOffice Texto** (escreva e formate documentos, abra e salve arquivos do Word
+   .docx, ODT, RTF e PDF, com revisão, comentários, sumário e mala direta) e o **cvglOffice PDF** (leia, anote,
+   assine, preencha formulários, organize páginas e proteja PDFs). Tudo em português, sem conta e sem anúncios.
+   Documentos do Word passam a abrir no cvglOffice Texto.
+ - **CVGL Studio:** estúdio de áudio para gravar, editar e mixar áudio e MIDI, com faixas, plugins e automação.
+ - **CVGL Foto:** editor de imagens com camadas, máscaras, texto e arquivos PSD.
+ - **CVGL Vetor:** ilustração vetorial para logotipos, ícones e desenhos, com SVG.
+ - **Jogos CVGL:** a Loja destaca uma coleção de oito jogos livres que se instala num clique (opcional).
+ - **Conversor:** o comando `cvgl-converter entrada saída` converte documentos e imagens sem abrir janela
+   (por exemplo, .docx para PDF).
+ - Os novos apps ficam em Aplicativos e são atualizados pela Loja, como o resto do sistema.
+

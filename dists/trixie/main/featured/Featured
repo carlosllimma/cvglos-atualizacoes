@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "package": "cvglos-jogos",
+  "kicker": { "en": "Featured · Games", "pt": "Destaque · Jogos" },
+  "title": { "en": "CVGL Games", "pt": "Jogos CVGL" },
+  "text": {
+    "en": "Eight free games in one click: platformer, puzzle, racing, arcade and more. No ads, no account.",
+    "pt": "Oito jogos livres num clique: plataforma, quebra-cabeça, corrida, arcade e mais. Sem anúncios e sem conta."
+  },
+  "colors": ["#020617", "#10b981"]
+}
