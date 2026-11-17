@@ -36,3 +36,10 @@ Notes:
    (por exemplo, .docx para PDF).
  - Os novos apps ficam em Aplicativos e são atualizados pela Loja, como o resto do sistema.
 
+Package: lordos
+Version: 0.8.8.8+cvgl0.3.1
+Notes:
+ - As atualizações passam a vir de um endereço que não depende de configuração extra no servidor: ficam mais
+   simples de manter e continuam assinadas pela CVGL IT. AI.
+ - Traz tudo da 0.3.0: cvglOffice (Texto e PDF), CVGL Studio, CVGL Foto, CVGL Vetor, Jogos CVGL e o conversor.
+

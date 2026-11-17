@@ -167,6 +167,23 @@ Description: cvglOS - apps da casa e canal de atualizações
  Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
  e o repositório assinado de onde vêm as atualizações do sistema.
 
+Package: cvglos-sistema
+Version: 0.3.1
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: cvglos-base (>= 1.0.3), cvglos-guardiao (>= 1.0.3), cvglos-office (>= 1.0.0), cvglos-studio (>= 1.0.0), cvglos-foto (>= 1.0.0), cvglos-vetor (>= 1.0.1), cvglos-catalog (>= 2026111501), cvglos-iacvgl (>= 1.0.2)
+Filename: pool/main/cvglos-sistema_0.3.1_all.deb
+Size: 3876
+MD5sum: aa0ee0367e0d57acbb76031f6d3c3ec7
+SHA1: c70d0f9b6e73deed41c819864ba84e9039c5365e
+SHA256: 1d13bc0309edd826d092fa0156508f811e7799d35ac93c84092016acd1282470
+Section: admin
+Priority: optional
+Homepage: https://github.com/carlosllimma/cvglOS
+Description: cvglOS - apps da casa e canal de atualizações
+ Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
+ e o repositório assinado de onde vêm as atualizações do sistema.
+
 Package: lordos-hwdata
 Version: 2026.11.06
 Architecture: all

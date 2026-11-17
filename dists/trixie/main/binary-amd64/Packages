@@ -222,6 +222,23 @@ Description: cvglOS - apps da casa e canal de atualizações
  Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
  e o repositório assinado de onde vêm as atualizações do sistema.
 
+Package: cvglos-sistema
+Version: 0.3.1
+Architecture: all
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Depends: cvglos-base (>= 1.0.3), cvglos-guardiao (>= 1.0.3), cvglos-office (>= 1.0.0), cvglos-studio (>= 1.0.0), cvglos-foto (>= 1.0.0), cvglos-vetor (>= 1.0.1), cvglos-catalog (>= 2026111501), cvglos-iacvgl (>= 1.0.2)
+Filename: pool/main/cvglos-sistema_0.3.1_all.deb
+Size: 3876
+MD5sum: aa0ee0367e0d57acbb76031f6d3c3ec7
+SHA1: c70d0f9b6e73deed41c819864ba84e9039c5365e
+SHA256: 1d13bc0309edd826d092fa0156508f811e7799d35ac93c84092016acd1282470
+Section: admin
+Priority: optional
+Homepage: https://github.com/carlosllimma/cvglOS
+Description: cvglOS - apps da casa e canal de atualizações
+ Define o que todo cvglOS tem (IA CVGL, Guardião CVGL, navegador sem anúncios)
+ e o repositório assinado de onde vêm as atualizações do sistema.
+
 Package: cvglos-studio
 Version: 1.0.0
 Architecture: amd64
@@ -336,6 +353,28 @@ Size: 38229192
 MD5sum: 86bf8ab3c9866c54f71bcf6bc965a9e5
 SHA1: af662db4160edecfb75252268f96829355931d75
 SHA256: 58d96444b44f5e043a567b05233fdddc321b0477b25c1aef61f8d3830c0fe0b3
+Section: x11
+Priority: optional
+Homepage: https://github.com/carlosllimma/cvglOS
+Description: cvglOS - sistema operacional da CVGL IT. AI.
+ Ambiente de trabalho do cvglOS sobre Debian 13: servidor gráfico e
+ compositor Wayland próprios em C e a interface em React no motor próprio.
+ Inclui os apps nativos, os temas, a tela de login e o serviço que inicia
+ o sistema no tty1. A área de trabalho remota vem desligada.
+
+Package: lordos
+Version: 0.8.8.8+cvgl0.3.1
+Architecture: amd64
+Protected: yes
+Maintainer: CVGL IT. AI. <noreply@cvgl.com.br>
+Installed-Size: 158660
+Depends: libc6 (>= 2.38), libwayland-server0 (>= 1.22), libwayland-client0 (>= 1.22), libxkbcommon0 (>= 1.5), libcrypt1, libssl3t64 | libssl3, ca-certificates, passwd, procps, xkb-data, libfreerdp3-3, libfreerdp-client3-3, libwinpr3-3, fuse3, openssh-client, openssl, polkitd, pkexec, cvglos-sistema (>= 0.3.1), lordos-hwdata (>= 2026.10.27), lordos-rclone (>= 1.75.2), libgbm1, libegl1, libgles2, libwayland-egl1, libpoppler-glib8t64, libarchive13t64, libcairo2, libfreetype6, libfontconfig1, poppler-data, libtesseract5, tesseract-ocr-eng, libvulkan1, libgomp1, libstdc++6, libavcodec61, libavformat61, libavutil59, libswscale8, libswresample5, libva2, libva-drm2, libpipewire-0.3-0t64, libsrtp2-1, libusrsctp2, intel-microcode, amd64-microcode
+Recommends: pipewire-pulse, wireplumber, logrotate, wpasupplicant, openvpn, fonts-noto-core, fonts-noto-color-emoji, fonts-dejavu-core, locales, tzdata, sudo, cups, cups-client, avahi-daemon, libnss-mdns, mesa-va-drivers, bluez, libspa-0.2-bluetooth, power-profiles-daemon, systemd-timesyncd, shared-mime-info, gsettings-desktop-schemas, xwayland, pci.ids, usb.ids, curl, wget, rsync, screen, htop, vim, mc, tcpdump, net-tools, fdisk, rfkill, jq, whiptail, zstd, tesseract-ocr-spa, tesseract-ocr-por, tesseract-ocr-fra, tesseract-ocr-ita
+Filename: pool/main/lordos_0.8.8.8+cvgl0.3.1_amd64.deb
+Size: 38230496
+MD5sum: e75e0fda022408213ce4e68c2519940f
+SHA1: 41b5b306d4f8da927c9eac7244711c1f5ae9b86d
+SHA256: e32f0455da916bd3796fba39662b46cb710f86364ab4eeaa95eadf1dad43d1e6
 Section: x11
 Priority: optional
 Homepage: https://github.com/carlosllimma/cvglOS
